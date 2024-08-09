@@ -13,12 +13,16 @@
     background-color: #191919;
     background-image: url(./assets/Background.png);
     
+    
 
 
 
 }
 
 .header {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -128,7 +132,7 @@ li:hover {
 .card{
     background-color: #000;
     height: 365px;
-    width: 335px;
+    width: 400px;
     border-radius: 20px;
     padding: 20px 35px;
     text-align: center;
@@ -142,7 +146,7 @@ li:hover {
 .card h5 {
     color: wheat;
     font-size: 25px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .card p {
@@ -151,6 +155,7 @@ li:hover {
 }
 
 .card a {
+    
     color: white;
     font-size: 15px;
     background-color: rgb(255, 0, 0);
